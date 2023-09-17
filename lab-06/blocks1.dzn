@@ -1,0 +1,26 @@
+n_blocks = 3;
+n_places = 3;
+%table = { -2, -1, 0 }
+%A = 1;
+%B = 2;
+%C = 3;
+
+% Initial state:
+%
+%   C
+%   A
+%   B
+% ---
+%          A  B  C
+init_on = [2, 0, 1];
+
+% Goal state:
+%
+%   A
+%   B
+%   C
+% ---
+%           A  B  C
+final_on = [2, 3, 0];
+
+n_states = 8;

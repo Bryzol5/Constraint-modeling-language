@@ -1,0 +1,32 @@
+n_blocks = 5;
+n_places = 3;
+% Table = -2, -1, 0
+% A = 1;
+% B = 2;
+% C = 3;
+% D = 4;
+% E = 5;
+
+% Initial state:
+%
+%   E
+%   D
+%   C
+%   B
+%   A
+% ---
+%          A  B  C  D  E
+init_on = [0, 1, 2, 3, 4];
+
+% Goal state:
+%
+%   A
+%   B
+%   C
+%   D
+%   E
+% ---
+%           A  B  C  D  E
+final_on = [2, 3, 4, 5, 0];
+
+n_states = 14;

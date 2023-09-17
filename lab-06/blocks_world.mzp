@@ -1,0 +1,15 @@
+{
+    "openFiles": [
+        "blocks_world.mzn"
+    ],
+    "openTab": 0,
+    "projectFiles": [
+        "blocks1.dzn",
+        "blocks2.dzn",
+        "blocks_world.mzc",
+        "blocks_world.mzn"
+    ],
+    "selectedBuiltinConfigId": "org.gecode.gecode",
+    "selectedBuiltinConfigVersion": "6.3.0",
+    "version": 106
+}
